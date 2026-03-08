@@ -3,7 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Actividad 7: HTML5</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Actividad 7 — Ejercicios HTML5</h1>
+      <nav>
+        <ul>
+          <li><a href="/EC2-F1-A6-EC2-F2-A7/">Inicio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <main>
+        <!-- Ejercicio 2: Párrafos y enlaces -->
+        <section>
+          <h2>Ejercicio 2 — Párrafos y enlaces</h2>
+          <p>Este es un párrafo de ejemplo. Visita:</p>
+          <div class="btn-group">
+            <a href="https://www.google.com" target="_blank" class="btn"
+              >Google</a
+            >
+            <a href="pagina2.html" target="_blank" class="btn"
+              >Ir a otra página web</a
+            >
+          </div>
+        </section>
+
+        <!-- Ejercicio 3: Listas -->
+        <section>
+          <h2>Ejercicio 3 — Lista de tareas</h2>
+          <ul>
+            <li>Aprender HTML5</li>
+            <li>Practicar CSS</li>
+            <li>Explorar JavaScript</li>
+          </ul>
+        </section>
+
+        <!-- Ejercicio 4: Imágenes -->
+        <section>
+          <h2>Ejercicio 4 — Imagen de ejemplo</h2>
+          <img
+            src="img/imagen_html5.jpg"
+            alt="Imagen de ejemplo"
+            height="200px"
+            width="300px"
+          />
+        </section>
+
+        <!-- Ejercicio 5: Formulario -->
+        <section>
+          <h2>Ejercicio 5 — Formulario de contacto</h2>
+          <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+
+        <!-- Ejercicio 6: Tabla -->
+        <section>
+          <h2>Ejercicio 6 — Tabla de usuarios</h2>
+          <table>
+            <tr>
+              <th>Nombre</th>
+              <th>Edad</th>
+              <th>País</th>
+            </tr>
+            <tr>
+              <td>Natalia</td>
+              <td>21</td>
+              <td>México</td>
+            </tr>
+            <tr>
+              <td>Natalia</td>
+              <td>21</td>
+              <td>México</td>
+            </tr>
+            <tr>
+              <td>Natalia</td>
+              <td>21</td>
+              <td>México</td>
+            </tr>
+          </table>
+        </section>
+      </main>
+
+      <aside>
+        <h3>Información</h3>
+        <p>Ejercicios de práctica de etiquetas HTML5.</p>
+      </aside>
+    </div>
+
+    <footer>
+      <p>© Copyright 2026 EC2 Actividades. Todos los derechos reservados.</p>
+    </footer>
+  </body>
 </html>
